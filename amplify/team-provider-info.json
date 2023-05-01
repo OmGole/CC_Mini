@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ccmini-dev-205656-authRole",
+      "UnauthRoleArn": "arn:aws:iam::682161335235:role/amplify-ccmini-dev-205656-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::682161335235:role/amplify-ccmini-dev-205656-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-ccmini-dev-205656-deployment",
+      "UnauthRoleName": "amplify-ccmini-dev-205656-unauthRole",
+      "StackName": "amplify-ccmini-dev-205656",
+      "StackId": "arn:aws:cloudformation:ap-south-1:682161335235:stack/amplify-ccmini-dev-205656/73a41170-ddfd-11ed-a31c-025a43c0aa8e",
+      "AmplifyAppId": "dwjiypcs4d1kh",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-ccmini-dev-205656-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "ccmini41f4f9d6": {}
+      },
+      "function": {
+        "todosfunction": {
+          "deploymentBucketName": "amplify-ccmini-dev-205656-deployment",
+          "s3Key": "amplify-builds/todosfunction-626e734c51797459424b-build.zip"
+        }
+      },
+      "storage": {
+        "todosdb": {}
+      },
+      "api": {
+        "todosapi": {}
+      }
+    }
+  }
+}
